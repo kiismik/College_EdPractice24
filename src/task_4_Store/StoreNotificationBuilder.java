@@ -35,6 +35,7 @@ public class StoreNotificationBuilder {
     }
 
     public StoreNotification build() {
+
         return new StoreNotification(severity, message, code, date, product);
     }
 }
