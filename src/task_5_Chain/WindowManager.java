@@ -1,16 +1,17 @@
 package task_5_Chain;
 
-public class WindowManager extends Window {
+public class WindowManager{
     private Window window;
 
-    public WindowManager(String name, int width, int height, String title) {
-        super(name, width, height, title);
+    public WindowManager(Window window) {
+        this.window = window;
     }
 
-    @Override
     public void draw() {
-        System.out.println("Drawing");
-        super.draw();
+        window.draw();
+    }
 
+    public Window getWindow() {
+        return window;
     }
 }
