@@ -10,7 +10,7 @@ public class Main {
         Address address2 = new Address("Ukraine", "Lviv region", "Lviv", "Street 2", "District 2", "2", "Entrance 2");
         Administrator admin1 = new Administrator("Petro", LocalDateTime.now(), address2, "IT", LocalDateTime.now());
 
-        BankAccount bankAccount1 = new BankAccount("Client 1", admin1, 1000, true, BankAccountType.REGULAR);
+        BankAccount bankAccount1 = new BankAccount("Client 1", admin1, 1500, true, BankAccountType.REGULAR);
         InternalAccount internalAccount1 = new InternalAccount("Account 1", "Owner 1");
 
         AccountStorage storage = new AccountStorage();
