@@ -10,7 +10,7 @@ public class Main {
         Address address2 = new Address("Ukraine", "Lviv region", "Lviv", "Street 2", "79000");
         StoreManager manager1 = new StoreManager("Olga", LocalDateTime.now(), address2, "Electronics", LocalDateTime.now());
 
-        ElectronicProduct product1 = new ElectronicProduct("Smartphone A", manager1, 20000, true, ProductCategory.SMARTPHONES);
+        ElectronicProduct product1 = new ElectronicProduct("Iphone 12", manager1, 22000, true, ProductCategory.SMARTPHONES);
         InternalTool tool1 = new InternalTool("Inventory System", "Warehouse Manager");
 
         ProductStorage storage = new ProductStorage();
